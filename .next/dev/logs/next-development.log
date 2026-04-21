@@ -1,0 +1,1067 @@
+[00:00:01.235] Server  LOG     ✓ Ready in 808ms
+[00:00:01.393] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve './global.css'
+> 1 | import './global.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  4 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:01.955] Browser ERROR   uncaughtError: Error: ./app/layout.tsx:1:1
+Module not found: Can't resolve './global.css'
+> 1 | import './global.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  4 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:02.221] Browser ERROR   ./app/layout.tsx:1:1
+Module not found: Can't resolve './global.css'
+> 1 | import './global.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  4 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:02.221] Browser ERROR   ./app/layout.tsx:1:1
+Module not found: Can't resolve './global.css'
+> 1 | import './global.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  4 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:10.119] Server  LOG     ✓ Compiled in 774ms
+[00:00:10.726] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.820] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.596] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:14.268] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:28.223] Browser ERROR   ./app/layout.tsx:3:1
+Parsing ecmascript source code failed
+  1 | import glo
+  2 |
+> 3 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+    | ^^^^^^
+  4 |   return (
+  5 |     <html>
+  6 |       <body>{children}</body>
+
+Expected ',', got 'export'
+[00:01:29.928] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve ''
+> 1 | import ''
+    | ^^^^^^^^^
+  2 |
+  3 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  4 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:29.943] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve ''
+> 1 | import ''
+    | ^^^^^^^^^
+  2 |
+  3 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  4 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:29.945] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve ''
+> 1 | import ''
+    | ^^^^^^^^^
+  2 |
+  3 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  4 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:29.949] Server  ERROR   ⨯ ./app/layout.tsx:1:1
+Module not found: Can't resolve ''
+> 1 | import ''
+    | ^^^^^^^^^
+  2 |
+  3 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  4 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:29.987] Server  LOG     ✓ Compiled in 59ms
+[00:01:30.219] Browser ERROR   ./app/layout.tsx:1:1
+Module not found: Can't resolve ''
+> 1 | import ''
+    | ^^^^^^^^^
+  2 |
+  3 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  4 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:35.215] Browser ERROR   ./app/layout.tsx:1:1
+Module not found: Can't resolve ''
+> 1 | import ''
+    | ^^^^^^^^^
+  2 |
+  3 | export default function RootLayout({ children }: { children: React.ReactNode }) {
+  4 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:17.700] Server  ERROR   ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.708] Server  ERROR   ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.714] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.718] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.722] Server  ERROR   ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.731] Server  ERROR   ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.736] Server  ERROR   ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.740] Server  ERROR   ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.747] Server  ERROR   ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.751] Server  ERROR   ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.757] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.765] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.771] Server  ERROR   ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.775] Server  ERROR   ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.779] Server  ERROR   ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.795] Server  ERROR   ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.801] Server  ERROR   ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.804] Server  ERROR   ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.806] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.812] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.815] Server  ERROR   ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.818] Server  ERROR   ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.821] Server  ERROR   ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.824] Server  ERROR   ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.831] Server  ERROR   ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.834] Server  ERROR   ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.837] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.840] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.844] Server  ERROR   ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.847] Server  ERROR   ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.850] Server  ERROR   ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.853] Server  ERROR   ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.856] Server  ERROR   ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.858] Server  ERROR   ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.863] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.867] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.870] Server  ERROR   ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.872] Server  ERROR   ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.875] Server  ERROR   ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.880] Server  ERROR   ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.883] Server  ERROR   ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.886] Server  ERROR   ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.889] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.891] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.897] Server  ERROR   ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.900] Server  ERROR   ⨯ ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.902] Server  ERROR   ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.905] Server  ERROR   ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:17.907] Server  LOG     ✓ Compiled in 131ms
+[00:02:18.208] Browser ERROR   ./app/layout.tsx:4:1
+Module not found: Can't resolve '@/app/components/footerWrapper'
+  2 | import "./globals.css";
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+> 4 | import FooterWrapper from "@/app/components/footerWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:18.208] Browser ERROR   ./app/layout.tsx:3:1
+Module not found: Can't resolve '@/app/components/navbarWrapper'
+  1 | import type { Metadata } from "next";
+  2 | import "./globals.css";
+> 3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:18.208] Browser ERROR   ./app/layout.tsx:5:1
+Module not found: Can't resolve '@/app/components/scrollReset'
+  3 | import NavbarWrapper from "@/app/components/navbarWrapper";
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+> 5 | import ScrollReset from "@/app/components/scrollReset";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SessionGuard from "@/app/components/sessionGuard";
+  7 | import Script from "next/script";
+  8 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:18.208] Browser ERROR   ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/app/components/sessionGuard'
+  4 | import FooterWrapper from "@/app/components/footerWrapper";
+  5 | import ScrollReset from "@/app/components/scrollReset";
+> 6 | import SessionGuard from "@/app/components/sessionGuard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Script from "next/script";
+  8 |
+  9 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:22.155] Server  ERROR   ⨯ ReferenceError: ScrollReset is not defined
+[00:02:22.193] Server  ERROR   ⨯ ReferenceError: ScrollReset is not defined
+[00:02:22.434] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:23.213] Browser ERROR   uncaughtError: ReferenceError: ScrollReset is not defined
+[00:02:33.211] Browser ERROR   ./app/layout.tsx:21:25
+Parsing ecmascript source code failed
+  19 |         </main>
+  20 |
+> 21 |         <FooterWrapper />
+     |                         ^
+  22 |       </body>
+  23 |     </html>
+  24 |   );
+
+Expression expected
+[00:02:34.210] Browser ERROR   ./app/layout.tsx:20:25
+Parsing ecmascript source code failed
+  18 |         </main>
+  19 |
+> 20 |         <FooterWrapper />
+     |                         ^
+  21 |       </body>
+  22 |     </html>
+  23 |   );
+
+Expression expected
+[00:02:37.993] Server  LOG     ✓ Compiled in 47ms
+[00:02:37.996] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:38.312] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:42.242] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:46.027] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:49.391] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:55.334] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:57.080] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:00.294] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:20.110] Server  ERROR   ⨯ ReferenceError: ScrollReset is not defined
+[00:03:20.306] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:21.217] Browser ERROR   uncaughtError: ReferenceError: ScrollReset is not defined
+[00:03:25.222] Server  ERROR   ⨯ ReferenceError: FooterWrapper is not defined
+[00:03:25.457] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:26.217] Browser ERROR   uncaughtError: ReferenceError: FooterWrapper is not defined
+[00:03:27.159] Server  ERROR   ⨯ ReferenceError: FooterWrapper is not defined
+[00:03:27.370] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:28.214] Browser ERROR   uncaughtError: ReferenceError: FooterWrapper is not defined
+[00:03:30.810] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:34.931] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:49.814] Server  LOG     ✓ Compiled in 77ms
+[00:03:50.215] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\liszkai_dominik\passwordVerifier\app\globals.css:1:1: Can't resolve 'daisyui' in 'D:\liszkai_dominik\passwordVerifier\app'
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (D:\liszkai_dominik\passwordVerifier\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:03:56.183] Server  ERROR   ⨯ ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\liszkai_dominik\passwordVerifier\app\globals.css:1:1: Can't resolve 'daisyui' in 'D:\liszkai_dominik\passwordVerifier\app'
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (D:\liszkai_dominik\passwordVerifier\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:03:56.372] Browser ERROR   uncaughtError: Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\liszkai_dominik\passwordVerifier\app\globals.css:1:1: Can't resolve 'daisyui' in 'D:\liszkai_dominik\passwordVerifier\app'
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (D:\liszkai_dominik\passwordVerifier\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:03:56.559] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\liszkai_dominik\passwordVerifier\app\globals.css:1:1: Can't resolve 'daisyui' in 'D:\liszkai_dominik\passwordVerifier\app'
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (D:\liszkai_dominik\passwordVerifier\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:03:56.559] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: D:\liszkai_dominik\passwordVerifier\app\globals.css:1:1: Can't resolve 'daisyui' in 'D:\liszkai_dominik\passwordVerifier\app'
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (D:\liszkai_dominik\passwordVerifier\node_modules\@tailwindcss\postcss\dist\index.js:10:6913)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:04:03.792] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:57.252] Server  LOG     ✓ Compiled in 33ms
+[00:06:10.043] Server  LOG     ✓ Compiled in 23ms
+[00:06:20.345] Server  LOG     ✓ Compiled in 47ms
+[00:06:23.084] Server  LOG     ✓ Compiled in 61ms
+[00:08:26.725] Server  LOG     ✓ Compiled in 41ms
+[00:08:32.933] Server  LOG     ✓ Compiled in 51ms
+[00:09:01.266] Server  LOG     ✓ Compiled in 173ms
+[00:09:03.806] Server  LOG     ✓ Compiled in 45ms
+[00:09:07.707] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:20.217] Server  LOG     ✓ Compiled in 29ms
+[00:09:21.949] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:57.661] Server  LOG     ✓ Compiled in 31ms
+[00:11:06.382] Server  LOG     ✓ Compiled in 40ms
+[00:11:21.409] Server  LOG     ✓ Compiled in 52ms
+[00:11:23.942] Server  LOG     ✓ Compiled in 43ms
+[00:11:24.213] Browser ERROR   ./app/page.tsx:94:8
+Parsing ecmascript source code failed
+  92 |         {showHints && suggestions.length > 0 && (
+  93 | q   
+> 94 |       </div>
+     |        ^^^^^
+  95 |     </div>
+  96 |   );
+  97 | }
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:11:27.207] Server  LOG     ✓ Compiled in 32ms
+[00:12:13.448] Server  LOG     ✓ Compiled in 58ms
+[00:12:14.213] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:12:18.356] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:12:18.507] Server  LOG     ✓ Compiled in 30ms
+[00:12:18.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:21.089] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:45.841] Server  LOG     ✓ Compiled in 40ms
+[00:12:51.717] Server  LOG     ✓ Compiled in 26ms
+[00:12:54.824] Server  LOG     ✓ Compiled in 49ms
+[00:13:11.146] Server  LOG     ✓ Compiled in 33ms
+[00:13:16.246] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:47.782] Server  LOG     ✓ Compiled in 176ms

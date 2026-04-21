@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: password-verifier
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: password-verifier
+  template:
+    metadata:
+      labels:
+        app: password-verifier
+    spec:
+      containers:
+        - name: app
+          image: ghcr.io/liszkai-dominik/password-verifier:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+      imagePullSecrets:
+        - name: ghcr-auth-token
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: password-verifier-svc
+spec:
+  selector:
+    app: password-verifier
+  ports:
+    - port: 80
+      targetPort: 3000
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: password-verifier-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: password-verifier.jcloud.jedlik.cloud
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: password-verifier-svc
+                port:
+                  number: 80
