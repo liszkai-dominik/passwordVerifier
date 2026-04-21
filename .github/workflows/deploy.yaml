@@ -37,10 +37,15 @@ jobs:
       - name: Set kubeconfig
         run: |
           mkdir -p ~/.kube
-          echo "${{ secrets.KUBECONFIG }}" > ~/.kube/config
+          printf "%s" "${{ secrets.KUBECONFIG }}" > ~/.kube/config
           chmod 600 ~/.kube/config
+
+      # (opcionális debug, ha még mindig nem megy)
+      # - name: Debug kubeconfig
+      #   run: cat ~/.kube/config
 
       - name: Deploy
         run: |
+          kubectl get nodes
           kubectl apply -f k8s/deployment.yaml
           kubectl rollout restart deployment password-verifier
