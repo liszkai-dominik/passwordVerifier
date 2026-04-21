@@ -37,7 +37,7 @@ jobs:
       - name: Set kubeconfig
         run: |
           mkdir -p ~/.kube
-          printf "%s" "${{ secrets.KUBECONFIG }}" > ~/.kube/config
+          printf "%s" "${{ secrets.KUBE_CONFIG }}" > ~/.kube/config
           chmod 600 ~/.kube/config
 
       # (opcionális debug, ha még mindig nem megy)
