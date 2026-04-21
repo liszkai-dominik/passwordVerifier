@@ -38,10 +38,12 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: password-verifier-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
   rules:
-    - host: password-verifier.jcloud.jedlik.cloud
+    - host: password-verifier-liszkai-dominik.jcloud.jedlik.cloud
       http:
         paths:
           - path: /
