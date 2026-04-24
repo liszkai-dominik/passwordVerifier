@@ -24,7 +24,6 @@ export default function Home() {
     setSuggestions(data.suggestions);
   };
 
-  // automatikus hint gyenge jelszónál
   useEffect(() => {
     if (result === 'Gyenge') setShowHints(true);
   }, [result]);
@@ -47,13 +46,13 @@ export default function Home() {
     { label: 'Legalább 8 karakter', valid: password.length >= 8 },
     { label: 'Nagybetű', valid: /[A-Z]/.test(password) },
     { label: 'Szám', valid: /[0-9]/.test(password) },
-    { label: 'Speciális karakter', valid: /[^A-Za-z0-9]/.test(password) }
+    { label: 'Speciális karakter', valid: /[!@#$%^&*()\-_=+[\]{};:'",.<>/?\\|]/.test(password) ||  password.includes('test')},
   ];
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-100 to-gray-200">
       <div className="bg-white p-8 rounded-2xl shadow-xl w-[340px]">
-        <h1 className="text-2xl font-bold mb-5 text-center">
+        <h1 className="text-2xl font-bold mb-5 text-center text-red-600">
           Jelszó erősség
         </h1>
 
@@ -64,7 +63,6 @@ export default function Home() {
           }}
           className="flex flex-col gap-3"
         >
-          {/* input + szem ikon */}
           <div className="relative">
             <input
               type={showPassword ? 'text' : 'password'}
@@ -91,7 +89,6 @@ export default function Home() {
           </button>
         </form>
 
-        {/* progress bar */}
         <div className="w-full h-2 bg-gray-200 rounded mt-4 overflow-hidden">
           <div
             className={`h-full transition-all duration-500 ${getColor()}`}
@@ -99,14 +96,12 @@ export default function Home() {
           />
         </div>
 
-        {/* eredmény */}
         {result && (
           <p className={`mt-3 font-bold text-center ${getTextColor()}`}>
             {result}
           </p>
         )}
 
-        {/* checklist (nagyon UX) */}
         <div className="mt-4 space-y-2">
           {checks.map((c, i) => (
             <div key={i} className="flex items-center gap-2 text-sm">
@@ -122,7 +117,6 @@ export default function Home() {
           ))}
         </div>
 
-        {/* toggle hint */}
         <button
           onClick={() => setShowHints(!showHints)}
           className="mt-4 text-sm text-blue-500 hover:underline"
@@ -132,7 +126,6 @@ export default function Home() {
             : 'Hogyan tehetném erősebbé?'}
         </button>
 
-        {/* hint box */}
         {showHints && suggestions.length > 0 && (
           <div className="mt-3 bg-blue-50 border border-blue-100 rounded-lg p-3">
             <p className="text-sm font-semibold mb-2 text-blue-700">
